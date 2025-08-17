@@ -12,46 +12,78 @@
         <p>Learn languages in an easy and fun way!</p>
         <a href="#contact" class="btn">Book a class</a>
     </header>
-</body>
-</html>
-
 
     <main>
+        <!-- About Section -->
         <section id="about">
             <h2>About me</h2>
-            <p>Hi! I’m Maria, a Biomedical Researcher with a specialisation in Neurobiology. I’ve worked across diverse scientific fields, from neuroscience to cancer research and evolution and development of species. My passion for science is matched by my love for languages, teaching, and writing.
-
-I’m also a trained language instructor and certified translator, helping students and professionals communicate clearly and confidently in Portuguese and English. Whether it’s teaching engaging language lessons, translating complex texts, or making scientific concepts accessible, I bring clarity, expertise, and enthusiasm to every project.
-
-I thrive on turning complexity into understanding and creating learning experiences that are fun, interactive, and results-driven. Let’s make your next project, lesson, or translation precise, engaging, and impactful!
-</p>
+            <p>
+                Hi! I’m Maria, a Biomedical Researcher with a Masters in Neurobiology. I’ve worked across diverse scientific fields, from neuroscience to cancer research and evolution and development of species. My passion for science is matched by my love for languages, teaching, and writing. I’m also a trained language instructor and translator, helping students and professionals communicate clearly and confidently in Portuguese and English. Whether it’s teaching engaging language lessons, translating complex texts, or making scientific concepts accessible, I bring clarity and enthusiasm to every project.
+                I thrive on turning complexity into understanding and creating learning experiences that are fun and interactive. Let's make learning fun!
+            </p>
         </section>
 
+        <!-- Certificates Section -->
+        <section id="certificates">
+            <h2>Certificates</h2>
+            <div class="certificate-list">
+                <div class="certificate">
+                    <img src="certificate1.png" alt="Certificate 1">
+                    <p>IELTS Academic - Overall Band Score: 8.0 | CEFR Level C1</p>
+                </div>
+                <div class="certificate">
+                    <img src="certificate2.jpg" alt="Certificate 2">
+                    <p>Certificate in Advanced English - C1</p>
+                </div>
+                <div class="certificate">
+                    <img src="certificate3.jpg" alt="Certificate 3">
+                    <p>Curso de Tradução e Tecnologias de Informação Linguística</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reviews Display Section -->
         <section id="reviews">
             <h2>Reviews</h2>
-            <div class="review">
-                <p>"As aulas do Sintra são fantásticas! Aprendi muito rapidamente."</p>
-                <span>- Ana P.</span>
-            </div>
-            <div class="review">
-                <p>"Muito paciente e explica de forma clara. Recomendo!"</p>
-                <span>- Miguel S.</span>
-            </div>
-            <div class="review">
-                <p>"Aprender com o Sintra tornou-se divertido e eficiente."</p>
-                <span>- Laura T.</span>
+            <div id="reviewsList">
+                <!-- Submitted reviews will appear here -->
             </div>
         </section>
 
+        <!-- Leave a Review Section -->
+        <section id="leave-review">
+            <h2>Leave a Review</h2>
+            <form id="reviewForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+
+                <label for="review">Comment:</label>
+                <textarea id="review" required></textarea>
+
+                <div class="stars">
+                    <span data-value="1">★</span>
+                    <span data-value="2">★</span>
+                    <span data-value="3">★</span>
+                    <span data-value="4">★</span>
+                    <span data-value="5">★</span>
+                </div>
+
+                <button type="submit">Send review</button>
+            </form>
+        </section>
+
+        <!-- Contact Section -->
         <section id="contact">
             <h2>Contact</h2>
-            <p>Would you like to ask for a service or have any questions? Feel free to contact me:</p>
+            <p>Do you have any questions? Feel free to contact:</p>
             <a href="mailto:majosintra@gmail.com" class="btn">Send Email</a>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 Learning Languages with Sintra</p>
+        <p>&copy; 2025 SintraLingo</p>
     </footer>
+
+    <script src="script.js" defer></script>
 </body>
 </html>
